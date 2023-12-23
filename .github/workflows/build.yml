@@ -16,7 +16,7 @@ on:
           default: ""
       app_name:
           type: string
-          description: "Gms"
+          description: "Gms Services"
           required: false
           default: ""
       stub:
