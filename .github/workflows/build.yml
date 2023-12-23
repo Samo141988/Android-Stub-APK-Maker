@@ -13,7 +13,7 @@ on:
           type: string
           description: "com.google.android.gms"
           required: true
-          default: ""
+          default: "com.google.android.gms"
       app_name:
           type: string
           description: "Gms Services"
@@ -23,7 +23,7 @@ on:
           type: boolean
           description: "Stub mode (versionCode: 1)"
           required: true
-          default: true
+          default: false
 
 jobs:
   build:
