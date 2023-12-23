@@ -11,12 +11,12 @@ on:
     inputs:
       package:
           type: string
-          description: "Package ID"
+          description: "com.google.android.gms"
           required: true
           default: ""
       app_name:
           type: string
-          description: "Appli name"
+          description: "Gms"
           required: false
           default: ""
       stub:
